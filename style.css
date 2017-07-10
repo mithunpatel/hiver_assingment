@@ -1,0 +1,398 @@
+
+body{
+	background: #52ab92;
+	    margin-right: 5%;
+}
+#header{
+	width: 100%;
+}
+#left-header{
+	width: 50%;
+	padding-left: 5%;
+    padding-top: 1%;
+}
+
+#right-header{
+	width: 50%;
+    padding-left: 30%;
+    padding-top: 1%;
+}
+#right-header img{
+	width: 25px; height: 25px
+}
+#contact{
+	font-size: 16px; color: white;
+}
+.jumbotron1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #52ab92;
+}
+#adv-slogon h1{
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 59px;
+	color: white;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 50.4px;
+}
+#adv-slogon p{
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 26px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: white;
+}
+#form-main-div{
+	    padding-left: 15%;
+    padding-right: 15%;
+}
+#form-div{
+	background: #FFFFFF;
+    /* border-style: outset; */
+    border: 2px solid;
+    border-style: groove;
+    border-color: #FAFAFA;
+    border-radius: 9px;
+    height: 250px; 
+    margin-bottom: 6px;
+}
+#input-email,#input-phone{
+	background-color: #FAFAFA;
+}
+#input-header{
+	font-family: "Calibri","Candara","Segoe","Segoe UI","Optima",Arial,sans-serif; 
+	font-size: 12px;
+	
+	color: #C1C0C0;
+}
+#input-submit{
+	background-color: #EF7126;
+	color: white;
+}
+.form-group {
+    margin-bottom: -65px;
+    margin-left: 5%;
+    /* margin-right: 20px; */
+    margin-top: 34px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 90%;
+}
+#tandc{
+	font-family: "Calibri","Candara","Segoe","Segoe UI","Optima",Arial,sans-serif; 
+	font-size: 12px;
+	
+	color: #C1C0C0;
+}
+#dp-div{
+	margin-top: -11%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: #F9F9F9;
+        margin-right: 0;
+}
+#slogon{
+	font-family: "Calibri","Candara","Segoe","Segoe UI","Optima",Arial,sans-serif; 
+	font-size: 17px;
+	font-style: italic;
+	color: #C1C0C0;
+}
+#sub-slogon{}
+
+#mid-body{
+	background: #FFFFFF;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 6%;
+	padding-top: 4%;
+	text-align: justify;
+    text-justify: inter-word;
+    text-align: center;
+    margin-right: 0;
+}
+#fourth-div{
+	padding-left: 2%;
+	background: #F9F9F9;
+	margin-right: 0;
+	margin-left: -15px;
+	width: 109%;
+}
+#clint{
+	padding-left: 2%;
+}
+#footer{
+	width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    bottom: 0;
+    /*margin-bottom: 0%;
+    padding-bottom: 0%;*/
+    /*position: fixed;*/
+        margin-right: 0;
+}
+
+
+@media only screen and(min-width: 769px)
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: left;
+}
+#left-header img{
+	width: 200px; height: 70px
+}
+#contact {
+    font-size: 15px;
+    color: white;
+}
+#tandc {
+    font-family: "Calibri","Candara","Segoe","Segoe UI","Optima",Arial,sans-serif;
+    font-size: 9px;
+    color: #C1C0C0;
+    padding-top: 16%;
+    text-align: right;
+}
+
+@media only screen and(max-width: 768px) and(min-width: 481px)
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: left;
+}
+#left-header {
+    padding-left: 7%;
+    padding-top: 1%;
+}
+#right-header {
+    padding-left: 8%;
+    padding-top: 5%;
+    text-align: -webkit-right;
+}
+#contact {
+    font-size: 15px;
+    color: white;
+}
+.jumbotron {
+    padding-top: 4px;
+    margin-bottom: -50px;
+}
+#adv-slogon h1{
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 30px;
+	color: white;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 21.4px;
+}
+#adv-slogon{
+	padding-top: 0%;
+}
+#adv-slogon p{
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 14.4px;
+	color: white;
+}
+#form-main-div {
+    padding-left: 11%;
+    padding-right: 0%;
+}
+#form-div {
+    background: #FFFFFF;
+    /* border-style: outset; */
+    border: 2px solid;
+    border-style: groove;
+    border-color: #FAFAFA;
+    border-radius: 9px;
+    height: 200px;
+    margin-bottom: -95px;
+}
+#input-header {
+    font-family: "Calibri","Candara","Segoe","Segoe UI","Optima",Arial,sans-serif;
+    font-size: 13px;
+    color: #C1C0C0;
+}
+.form-group {
+    margin-bottom: 0px;
+    margin-left: 5%;
+    /* margin-right: 20px; */
+    margin-top: 0;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    width: 90%;
+}
+#dp {
+    padding-left: 5%;
+    margin-top: 1%;
+}
+#slogon {
+    font-family: "Calibri","Candara","Segoe","Segoe UI","Optima",Arial,sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: #C1C0C0;
+    padding-left: 24%;
+    padding-top: 3%;
+    text-align: -webkit-center;
+    margin-left: 4%;
+}
+#sub-slogon {
+    font-size: 10px;
+    padding-left: 15%;
+    padding-top: 0%;
+}
+#tandc {
+    font-family: "Calibri","Candara","Segoe","Segoe UI","Optima",Arial,sans-serif;
+    font-size: 10px;
+    color: #C1C0C0;
+    padding-top: 35%;
+}
+#mid-body {
+    background: #FFFFFF;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 7%;
+    padding-top: 0%;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align: center;
+    margin-right: 0;
+}
+
+
+
+@media only screen and(max-width: 480px)
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: left;
+}
+#header {
+    width: 100%;
+    display: -webkit-box;
+}
+#left-header {
+    padding-left: 9%;
+    padding-top: 2%;
+}
+#left-header img {
+    width: 130px;
+    height: 50px;
+}
+#right-header {
+        padding-left: 8%;
+    padding-top: 5%;
+}
+#contact{
+	font-size: 11px; color: white;
+}
+.jumbotron1 {
+    padding-top: 2%;
+    margin-bottom: -50px;
+    padding-left: 7%;
+}
+#adv-slogon {
+    padding-top: 0%;
+    
+}
+#adv-slogon h1 {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    font-size: 26px;
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+#adv-slogon p {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 8.4px;
+    color: white;
+}
+#form-main-div {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+#form-div {
+    background: #FFFFFF;
+    /* border-style: outset; */
+    border: 2px solid;
+    border-style: groove;
+    border-color: #FAFAFA;
+    border-radius: 9px;
+    height: 200px;
+    margin-bottom: -60px;
+}
+#input-header {
+    font-family: "Calibri","Candara","Segoe","Segoe UI","Optima",Arial,sans-serif;
+    font-size: 13px;
+    color: #C1C0C0;
+}
+.form-group {
+    margin-bottom: 0px;
+    margin-left: 5%;
+    /* margin-right: 20px; */
+    margin-top: 0;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    width: 90%;
+}
+#tandc {
+    font-family: "Calibri","Candara","Segoe","Segoe UI","Optima",Arial,sans-serif;
+    font-size: 9px;
+    color: #C1C0C0;
+    padding-top: 19%;
+    text-align: right;
+    margin-top: -17%;
+}
+#dp-div {
+    background: #F9F9F9;
+    margin-right: 0;
+    width: 109%;
+    padding-top: 8%;
+}
+#dp {
+    padding-left: 8%;
+    
+}
+#slogon {
+    font-family: "Calibri","Candara","Segoe","Segoe UI","Optima",Arial,sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    color: #C1C0C0;
+    padding-left: 15%;
+    padding-top: 3%;
+}
+#sub-slogon {
+    font-size: 10px;
+    padding-left: 15%;
+    padding-top: 0%;
+}
+#mid-body {
+    background: #FFFFFF;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 7%;
+    padding-top: 0%;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align: center;
+    margin-right: 0;
+    width: 109%;
+}
+#footer-top{
+	width: 106%;
+}
+#footer-frist{
+padding-left: 2%;
+}
+#footer-second{
+
+}
